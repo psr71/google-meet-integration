@@ -1,0 +1,8 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+
+# Use LF for shell scripts and Unix tools
+*.sh text eol=lf
+
+# Use CRLF for Windows batch files
+*.cmd text eol=crlf

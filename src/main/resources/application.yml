@@ -1,0 +1,13 @@
+server:
+  port: 9703
+
+spring:
+  application:
+    name: meet
+
+google:
+  oauth:
+    client-id:
+    client-secret :
+    redirect-uri : http://localhost:8083/api/master/google-meet/create-space
+    token-url: https://oauth2.googleapis.com/token
